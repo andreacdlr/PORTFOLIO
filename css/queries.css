@@ -1,0 +1,306 @@
+@media screen and (max-width: 992px){
+
+ .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1rem;}
+     .nav-logo{ width: 34px; height: 34px; top: 4px;    margin-left: -10px;}
+	  
+
+    .links-header{width: 60%;}
+
+	.scrolld-header {bottom: 8%;height: 15%;}
+	.scrolld-header svg {position: relative;top: 0rem;}
+	.scroll-d{display: block;}
+	.p-bottom{padding-bottom: 2rem;}
+	.description-projects{padding: 0;}
+	.more a{margin-right: 0;}
+	.projects h2{margin-left: 0;}
+		.projects h2 span{left: -14px;}
+	    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
+        .photo{margin-top: 0px;padding-top: 2%;}
+    	.photo img{width: 30%;}
+	.intro{padding-top: 4%;}
+		.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}
+     .can_do{display: none;}
+     .about{padding: 2.0rem 0px 2.5rem;}
+     .services{padding: 2.5rem 0 4.5rem;}
+  .title-services{top: 0px;color: #8c62c3;}
+
+	.contact{padding: 2rem 0px 2rem;}
+	.section{padding: 8% 2% 10% !important;}
+	.section-contact-information{padding: 16% 0 0 !important;}
+
+	.bcodedemo-small{display: block;}
+	.p-img{width: 100%}
+
+	button.accordion span{background-color: #8c62c3;color: #fff;}
+
+
+}
+
+
+@media screen and (max-width: 860px){
+   .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
+     .nav-logo{ width: 32px; height: 32px; top: 6px;    margin-left: -10px;}
+	  .name-lettering{width: 70%;}
+	  .links-header{width: 70%;}
+
+	  .scrolld-header {bottom: 8%;height: 15%;}
+	.scrolld-header svg {position: relative;top: 0rem;}
+	.scroll-d{display: block;}
+	.projects h2 span{left: -14px;}
+	.study-projects{font-size: 0.9rem;}
+	    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
+    .photo{margin-top: 0px;}
+	.photo img{width: 40%;}
+	.intro{padding-top: 4%;}
+		.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}
+ .about{padding: 2.0rem 0px 2.5rem;}
+  .services{    padding: 1.5rem 0 4.5rem;}
+  .can_do{display: none;}
+  .title-services{top: 0px;color: #8c62c3;}
+  .fact-mail{font-size: 1rem;}
+  .section-contact-information{padding: 16% 0 0 !important;}
+  .contact h2{font-size: 4rem;}
+  .contact-fact{margin-top: 0px;}
+  .svg-image{display: none;}
+
+
+      /*more projects*/
+      .card-p.small{width: 100%;}
+
+      .projects {padding: 4rem 0px 2rem;}
+
+
+}
+
+@media screen and (max-width: 720px){
+	  .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
+     .nav-logo{ width: 32px; height: 32px; top: 6px;    margin-left: -10px;}
+    
+	  .name-lettering{width: 90%;}
+	  .links-header{width: 70%;}
+
+	  .scrolld-header {bottom: 10%;height: 15%;}
+	.scrolld-header svg {position: relative;top: 0rem;}
+	.scroll-d{display: block;}
+
+	.projects h2 span{left: -16px;}
+    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
+    .about{padding: 1rem 0px 2rem;}
+	.photo img{width: 40%;}
+	.intro {padding-top: 5%;}
+	.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}
+
+	.can_do {display: none;}
+	.services{padding: 2.5rem 0 3.5rem;}
+	.title-services{top: 15px;color: #8c62c3;}
+
+   .section-contact-information {padding: 25% 0 0 !important;}
+
+   /*more projects*/
+    
+    .description-p{position: relative;    top: 2.75rem;}
+    .card-col span{top: 7.50rem;}
+    .link-p {    right: 2px;bottom: 12px}
+    .hoverp .link-p{transform: translateX(-1rem);}
+
+
+
+}
+
+
+@media screen and (max-width: 600px){
+
+
+  .contact{padding: 1.2rem 0px 2rem;}
+  /*.contact h2 {font-size: 5rem;}*/
+  .contact h2 {font-size: 4.3rem;}
+  .section {padding: 2% 2% 4% !important;}
+  .svg-image{display: inline-block;}
+  .contact-fact{margin-top: -10px;}
+  .section-contact-information{padding: 1% 0 4% !important;}
+  .text-small{font-size: 12px !important;}
+  .text-small a{height: 22px;min-width: 82px; }
+   
+  .services{padding: 4rem 0;}
+  .service-one, .service-two, .service-three{text-align: center;padding:2rem 0 2rem;}
+  .services img{text-align: center;width: 55%;}
+  .content-text{padding: 0 4rem;}
+  .services h3{padding: 0%;}
+  .title-services{top: 5px;color:#8c62c3;}
+  .can_do{display: none;}
+  .presentation h2{display: inline-block;margin-left: 0px;text-align: left;}
+  .photo img{width: 50%;}
+  .intro{padding-top: 5%;}
+  .collapse-section{float: right;padding-left: 0%;padding-top: 10%;}
+
+
+
+
+  .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
+  .nav-logo{ width: 32px; height: 32px; top: 6px;}
+  .name-lettering{width: 98%;}
+  .hero-text h4{ font-size: 1.35rem;}
+
+  .links-header .link-left{width: 100%;}
+  .scrolld-header {bottom: 12%;height: 15%;}
+	.scrolld-header svg {position: relative;top: 0rem;}
+	.scroll-d{display: block;}
+	    .projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
+      .description-projects{padding-bottom: 3%;}
+
+    .more a{float: left;margin-top: -30px;}
+
+
+}
+/*me quede hasta 520 px terminado*/
+@media screen and (max-width: 520px){
+
+	.offcanvas .content .logo{width: 9%;margin-top: -10px;margin-left: -10px;}
+
+	.name-lettering {width: 95%;}
+	.hero-text h4{ font-size: 1.45rem;}
+
+	.scrolld-header {bottom: 12%;height: 15%;}
+	.scrolld-header svg {position: relative;top: 0rem;}
+	.scroll-d{display: block;}
+      
+    .more a{float: left;margin-top: -30px;}
+    .projects h2{width: 100%;}
+    .projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
+    .description-projects{padding-bottom: 5%;}
+    .description-projects p{font-size: 16px;}
+
+
+
+   .intro{width: 100%;}
+   .collapse-section{width: 100%;padding-top: 5%;}
+   .photo{margin-top: 0px;}
+
+   .projects h2{font-size: 4.2rem;}
+
+   .section {padding: 0% 2% 4% !important;}
+
+   .contact h2 {font-size: 4rem;}
+
+
+}
+@media screen and (max-width: 440px){
+
+    .offcanvas .content .logo{width: 11%;margin-top: -10px;margin-left: -10px;}
+	.languages{ vertical-align: bottom;}
+
+	.nav-logo {width: 33px;height: 38px;top: 8px;}
+
+    .links-header{width: 45%;}
+	.scrolld-header {bottom: 12%;height: 15%;}
+	.scrolld-header svg {position: relative;top: 0rem;}
+	.scroll-d{display: block;}
+
+	
+
+	.name-lettering {width: 90%;}
+    .hero-text h4{ font-size: 1.35rem;}
+
+	.more a{float: left;margin-top: -14px;}
+	.projects{padding: 3rem 0px 2rem;}
+	.projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
+    .bcodedemo-small {padding-top: 7%;}
+
+
+    .photo img {width: 70%;}
+    .contact h2 {font-size: 3.2rem;}
+
+    .description-p{font-size: 2rem;}
+
+
+}
+
+
+@media screen and (max-width: 320px){
+
+    .hero{background-position: right -286px top 0;}
+    .languages{padding-left: 0px;}
+    .more-projects a{width: 100%;margin-bottom: 20px;padding: 3.5% 0%;}
+
+
+    
+    .projects{padding: 4rem 0px 2rem;}
+    .projects h2{font-size: 3.5rem;}
+    .projects h2 span{position: relative;left: 0; top: 0;line-height: 0.9;font-size: 2.5rem}
+    .description-projects{padding-bottom: 10%;}
+
+    .description-projects p{font-size: 16px;}
+    .bcodedemo-small{text-align: center;}
+    .bcodedemo-small a {/*width: 45%;*/    background-color: #e6e0ec; color: #8c62c3;padding: 0.3rem 2rem;text-align: center;float: none;display: inline-block;margin: 0 auto;border: none;}
+
+    .photo{width: 80%;margin: 0 auto;}
+    .photo img {width: 95%;}
+	.border-r{border-right: none;}
+	.title-services{top: 30px;}
+	.services img{width: 80%;}
+	.services h3{font-size: 2.3rem;}
+	.content-text{font-size: 15.5px;}
+	.contact{/*padding: 3.2rem 0px 1.2rem;*/}
+	.section{padding: 0% !important;}
+	.contact .section h2{font-size: 2.7rem;}
+	.contact .section p{/*font-size: 14.5px;line-height: 2.3rem;*/font-size: 16px;line-height: 1.89;letter-spacing: -.004em;}
+	.section-contact-information{padding: 3rem 0px !important;}
+	.section-contact-information h4{text-align: left;}
+	.section-contact-information span{width: 100%;}
+	.svg-mail{display: none;}
+	.svg-phone{display:none;width: 13%;padding-right: 20%;}
+	.contact-fact,.fact-mail{padding-top: 8%;}
+	.icon-social-h{text-align: center;}
+	.icon-social-h a{margin: 0px 10px;}
+	.contact .text-small{font-size: 13px;margin-bottom: 1.5rem !important;}
+	.text-small a{height: 23px;}
+	.text-small a:after{bottom: 2px;}
+
+
+
+	/*about me*/
+    /*.presentation h2 span{
+    	top: 0;
+    	left: 0;
+    }*/
+    .about{padding: 1rem 0px 1rem;}
+    .about h3{font-size: 2.5rem;text-align: left;font-weight: 500;}
+
+    .presentation h2{margin-left: 0px;font-size: 4rem; text-align: center;}
+    .intro{width: 100%;padding-top: 10%;}
+    .can_do{display: none;}
+    .collapse-section{width: 100%;}
+    .service-one, .service-two, .service-three{padding: 4rem 0 0;}
+
+
+
+
+	/*off canvas*/
+	.nav-toggle{/*top: 0.8rem;*/top: 0.4rem;right: 0.8rem;}
+	.nav-logo{width: 34px;height: 34px;line-height: 34px;}
+	.languages{min-height: 2.25rem;font-size: 1.04rem;padding-left: 4px;}
+	.name-lettering{width: 100%;}
+	.hero-text h4{font-size: 1.28rem;}
+    .links-header{width: 58%;}
+	.links-header .link-left{width: 100%;}
+	.scrolld-header{bottom: 15%;height: 17%;}
+	.scrolld-header svg{/*top: 0; left: 0; right: 0;*/ position: relative; top: 0rem;}
+	/*nav off canvas*/
+	.offcanvas .content{padding: 2rem 1rem 0rem 3rem;}
+    .offcanvas .content .logo{width: 16%;margin-top: -1rem;}
+    .offcanvas .content ul li a{/*margin-left: 5%*/margin-left: 0px;margin-right: 0px;font-size: 2.4rem;}
+	.bottom-info div [class*="fa"]{font-size: 19px !important;}
+	.bottom-info div{line-height: 3rem;}
+    
+    
+
+    /*more projects*/
+    
+    .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;}
+    .card-col span{top: 7.60rem;}
+    .link-p {    right: 2px;bottom: 12px}
+    .hoverp .link-p{transform: translateX(-1rem);}
+
+
+}
+
