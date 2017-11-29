@@ -1376,8 +1376,8 @@ button.accordion.active, button.accordion:hover {
     	/*background-color: #f2f2f2;*/
     	text-align: center;
     	/*padding: 3.2rem 0px;*/
-    	/*padding: 3.2rem 0px 6.2rem;*/
-    	padding: 4.2rem 0px 2.2rem;
+    	padding: 3.2rem 0px 6.2rem;
+    	/*padding: 4.2rem 0px 2.2rem;*/
      
     }
    .contact h2{
