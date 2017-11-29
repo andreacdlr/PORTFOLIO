@@ -604,13 +604,20 @@ h4{
 .bg-line-1 {
     left: calc(0.5vw - 8px);
 }
+.bg-line-1-phone {
+    right: calc(31.5vw - -18px);
+}
 .bg-line-2 {
     left: calc(31.5vw - -18px);
+}
+.bg-line-2-phone{
+	right: calc(0.5vw - 8px);
 }
 
 .line-light {
     background: #8c62c3;
-    opacity: 0.3;
+    /*opacity: 0.3;*/
+    opacity: 0.5;
 }
 
 .h-line-bottom{
@@ -625,8 +632,8 @@ h4{
 	position: absolute;
 	height: 1px;
 	bottom: 0px;
-	left:0px;
-	width: calc(100% - 30px * 2);
+	right: :0px;
+	width: calc(100% - 40px * 2);
 	z-index: -1;
 }
 .h-line-top{
@@ -641,7 +648,7 @@ h4{
 	position: absolute;
 	height: 1px;
 	top: 0px;
-	left:0px;
+	right: :0px;
 	width: calc(100% - 30px * 2);
 	z-index: -1;
 }
@@ -765,13 +772,15 @@ h4{
 
 	padding: 1.1rem 2rem;
     position: relative;
-    margin: 2rem 0;
+    margin: 3rem 0 2rem;
 
 }
 .description-phone{
-	    padding: 1.1rem 5rem 1.1rem 2rem;
+	/*padding: 1.1rem 5rem 1.1rem 2rem;*/
     position: relative;
-    margin: 5rem 5rem 2rem 0rem;
+    /*margin: 5rem 5rem 2rem 0rem;*/
+    margin: 10rem 0 0 0;
+    width: 62%;
     float: left;
 }
 .img-projects{
@@ -882,7 +891,7 @@ h4{
     display: block;
     margin: 0 auto;
     margin-top: 3rem;
-    box-shadow: 12px 11px 61px -20px rgba(0,0,0,.3);
+    box-shadow: 6px 25px 73px -18px rgba(0,0,0,.3);
     border-radius: 36px;
     float: right;
 }
@@ -1189,13 +1198,15 @@ h4{
 .intro{
 	/*padding-left: 5%;*/
     /*width: 70%;*/
-    width: /*62%*/58%;
+   /* width: 62% 58%;*/
+    width: 38%;
     display: inline-block;
     float: left;
 }
 .collapse-section{
 	/*width: 25%;*/
-	width: /*31%*/35%;
+	/*width: 31% 35%;*/
+	width: 24%;
 	padding-left: 5%;
     display: inline-block;
 }
