@@ -4,6 +4,7 @@
 	.intro{width: 52%;}
 	.collapse-section{width: 28%;}
 	.about-svg-arrow{width: 21px;}
+	.p-img-phone{float: none;width: 55%;}
 }
 @media screen and (max-width: 992px){
 

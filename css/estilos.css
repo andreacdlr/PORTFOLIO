@@ -614,10 +614,31 @@ h4{
 	right: calc(0.5vw - 8px);
 }
 
+.line-new{
+	position: absolute;
+	width: 2px;
+	background:  #8c62c3;
+	left:0;
+	top: 0;
+	height: 100%;
+}
 .line-light {
-    background: #8c62c3;
+    /*background: #8c62c3;*/
+    background: linear-gradient(to right, #fb2700 0%,#8e1faa 50%, #610971 100%);
     /*opacity: 0.3;*/
     opacity: 0.5;
+}
+.line-light-1{
+	background: linear-gradient(#fb2700 33%,#8e1faa 33%, #610971 36%);
+	opacity: 0.5;
+}
+.line-light-2{
+	background: linear-gradient(to top,#fb2700 0%,#8e1faa 50%, #610971 100%);
+	opacity: 0.5;
+}
+.line-light-4{
+	background: linear-gradient(to left, #fb2700 0%,#8e1faa 50%, #610971 100%);
+	opacity: 0.5;
 }
 
 .h-line-bottom{
@@ -632,8 +653,8 @@ h4{
 	position: absolute;
 	height: 1px;
 	bottom: 0px;
-	right: :0px;
-	width: calc(100% - 40px * 2);
+	right: 0px;
+	width: calc(100% - -40px * 2);
 	z-index: -1;
 }
 .h-line-top{
@@ -648,8 +669,8 @@ h4{
 	position: absolute;
 	height: 1px;
 	top: 0px;
-	right: :0px;
-	width: calc(100% - 30px * 2);
+	right: 0px;
+	width: calc(100% - -30px * 2);
 	z-index: -1;
 }
 
@@ -777,9 +798,10 @@ h4{
 }
 .description-phone{
 	/*padding: 1.1rem 5rem 1.1rem 2rem;*/
+	padding: 1.1rem 1rem 1rem 1rem;
     position: relative;
     /*margin: 5rem 5rem 2rem 0rem;*/
-    margin: 10rem 0 0 0;
+    margin: 5rem 0 0 0;
     width: 62%;
     float: left;
 }
@@ -791,16 +813,16 @@ h4{
 }
 
 .line-projects{
-	/*background: linear-gradient(to right, #fb2700 0%,#8e1faa 50%, #610971 100%);
-	overflow: hidden;
+	background: linear-gradient(to right, #fb2700 0%,#8e1faa 50%, #610971 100%);
+	/*overflow: hidden;
 	height: 3px;
 
 	margin: 4rem 1rem;*/
     opacity: .3;
-    margin: 4rem 0;
+    margin: 4rem 0 5rem;
 	height: 1px;
     overflow: hidden;
-    background-color: #8c62c3;
+    /*background-color: #8c62c3;*/
 }
 
 .projects a.btn{
@@ -890,8 +912,10 @@ h4{
     vertical-align: middle;
     display: block;
     margin: 0 auto;
-    margin-top: 3rem;
-    box-shadow: 6px 25px 73px -18px rgba(0,0,0,.3);
+    /*margin-top: 3rem;*/
+
+    /*box-shadow: 6px 25px 73px -18px rgba(0,0,0,.3);*/
+    box-shadow: 5px 20px 85px -14px rgba(0,0,0,.3);
     border-radius: 36px;
     float: right;
 }
