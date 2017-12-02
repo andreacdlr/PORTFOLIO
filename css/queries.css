@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 992px){
 
- .languages{padding-left: 0.3rem;/*vertical-align: text-top;*/font-size: 1rem;line-height: 8px;height: 8px;display: inline;}
+     .languages{padding-left: 0.3rem;/*vertical-align: text-top;*/font-size: 1rem;line-height: 8px;height: 8px;display: inline;}
      .nav-logo{width: 30px;/* height: 32px; */top: 9px;line-height: 13px;/*margin-left: -10px;*/margin-left: -21px;}
      .nav-toggle{height: 3.5rem;    width: 1.6rem;}
      .nav-toggle .nav-toggle-bar{height: 0.29rem;}
@@ -67,8 +67,17 @@
 /*me quede aquí*/
 
 @media screen and (max-width: 860px){
-   .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
-     .nav-logo{ width: 32px; height: 32px; top: 6px;    margin-left: -10px;}
+   
+
+   .languages{padding-left: 0.3rem;/*vertical-align: text-top;*/font-size: 1rem;line-height: 8px;height: 8px;display: inline;}
+     .nav-logo{width: 30px;/* height: 32px; */top: 9px;line-height: 13px;/*margin-left: -10px;*/margin-left: -21px;}
+     .nav-toggle{height: 3.5rem;    width: 1.6rem;}
+     .nav-toggle .nav-toggle-bar{height: 0.29rem;}
+     .nav-toggle:before{top: 1.18rem;}
+     .nav-toggle .nav-toggle-bar, .nav-toggle .nav-toggle-bar::after, .nav-toggle .nav-toggle-bar::before{height: 0.29rem;}
+
+
+
 	  .name-lettering{width: 70%;}
 	  .links-header{width: 70%;}
 
@@ -80,8 +89,8 @@
 	    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
     .photo{margin-top: 0px;}
 	.photo img{width: 40%;}
-	.intro{padding-top: 4%;}
-		.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}
+	.intro{padding-top: 0%;width: 59%;}
+		/*.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}*/
  .about{/*padding: 2.0rem 0px 2.5rem;*/padding: 0;}
   .services{    padding: 4.5rem 0 4.5rem;}
   .can_do{display: none;}
