@@ -2742,7 +2742,7 @@ select:focus {
     z-index: 1;
 }
 .landing-v{
-	 background-image: url(../img/projects-img/landing-b.png);
+	 background-image: url(../img/landing-b.png);
     background-size: cover;
 }
 /*.landing-v .hoverp{
@@ -2751,17 +2751,17 @@ select:focus {
   transform: scale(1.1);
 }*/
 .landing-emb{
-	 background-image: url(../img/projects-img/landing-e.png);
+	 background-image: url(../img/landing-e.png);
     background-size: cover;
     background-position: left top;
 }
 .landing-old{
-	background-image: url(../img/projects-img/old-portfolio.png);
+	background-image: url(../img/old-portfolio.png);
     background-size: cover;
     
 }
 .page-montpelier{
-	background-image: url(../img/projects-img/fundacion-montpelier.png);
+	background-image: url(../img/fundacion-montpelier.png);
     background-size: cover;	
 }
 .card-p.full{
