@@ -18,8 +18,8 @@
 }
 @media screen and (max-width: 992px){
 
- .languages{padding-left: 0.3rem;vertical-align: text-top;font-size: 1rem;line-height: 8px;height: 8px;display: inline;}
-     .nav-logo{width: 32px;/* height: 32px; */top: 4px;line-height: 13px;margin-left: -10px;}
+ .languages{padding-left: 0.3rem;/*vertical-align: text-top;*/font-size: 1rem;line-height: 8px;height: 8px;display: inline;}
+     .nav-logo{width: 30px;/* height: 32px; */top: 9px;line-height: 13px;/*margin-left: -10px;*/margin-left: -21px;}
      .nav-toggle{height: 3.5rem;    width: 1.6rem;}
      .nav-toggle .nav-toggle-bar{height: 0.29rem;}
      .nav-toggle:before{top: 1.18rem;}
@@ -32,20 +32,26 @@
 	.scrolld-header {bottom: 8%;height: 15%;}
 	.scrolld-header svg {position: relative;top: 0rem;}
 	.scroll-d{display: block;}
-	.p-bottom{padding-bottom: 2rem;}
+	.p-bottom{padding-bottom: 3.5rem;}
 	.description-projects{padding: 0;}
 	.more a{margin-right: 0;}
 	.projects h2{margin-left: 0;}
 		.projects h2 span{left: -14px;}
+		.line-projects{margin: 2rem 0 4rem;}
+
+		.description-phone{width: 100%;margin-top: 0rem;}
+		.p-img-phone{    width: 48%;margin: 0 auto;display: block;float: none;}
+
+        .bg-purple{background-position: right;}
 	    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
         .photo{margin-top: 0px;padding-top: 2%;}
     	.photo img{width: 30%;}
-	.intro{padding-top: 4%;}
-		.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}
+	.intro{padding-top: 1%;}
+		.collapse-section {float:none;padding-left:4%;padding-top:2%;}
      .can_do{display: none;}
      .about{padding: 2.0rem 0px 2.5rem;}
      .services{padding: 2.5rem 0 4.5rem;}
-  .title-services{top: 0px;color: #8c62c3;}
+  .title-services{top: 15px;color: #8c62c3;}
 
 	.contact{padding: 2rem 0px 2rem;}
 	.section{padding: 8% 2% 10% !important;}
@@ -58,7 +64,7 @@
 
 
 }
-
+/*me quede aquí*/
 
 @media screen and (max-width: 860px){
    .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
@@ -76,10 +82,10 @@
 	.photo img{width: 40%;}
 	.intro{padding-top: 4%;}
 		.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}
- .about{padding: 2.0rem 0px 2.5rem;}
-  .services{    padding: 1.5rem 0 4.5rem;}
+ .about{/*padding: 2.0rem 0px 2.5rem;*/padding: 0;}
+  .services{    padding: 4.5rem 0 4.5rem;}
   .can_do{display: none;}
-  .title-services{top: 0px;color: #8c62c3;}
+  .title-services{top:/* 0px*/ 48px;color: #8c62c3;}
   .fact-mail{font-size: 1rem;}
   .section-contact-information{padding: 16% 0 0 !important;}
   .contact h2{font-size: 4rem;}
