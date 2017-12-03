@@ -40,16 +40,18 @@
 		.line-projects{margin: 2rem 0 4rem;}
 
 		.description-phone{width: 100%;margin-top: 0rem;}
-		.p-img-phone{    width: 48%;margin: 0 auto;display: block;float: none;}
+		.p-img-phone{    width:58%;margin: 0 auto;display: block;float: none;}
 
         .bg-purple{background-position: right;}
+
 	    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
         .photo{margin-top: 0px;padding-top: 2%;}
     	.photo img{width: 30%;}
 	.intro{padding-top: 1%;}
 		.collapse-section {float:none;padding-left:4%;padding-top:2%;}
      .can_do{display: none;}
-     .about{padding: 2.0rem 0px 2.5rem;}
+     .about{padding: 0rem 0px 2.5rem;}
+     .btn-about-cv{display: block;}
      .services{padding: 2.5rem 0 4.5rem;}
   .title-services{top: 15px;color: #8c62c3;}
 
@@ -57,14 +59,13 @@
 	.section{padding: 8% 2% 10% !important;}
 	.section-contact-information{padding: 16% 0 0 !important;}
 
-	.bcodedemo-small{display: block;}
+	/*.bcodedemo-small{display: block;}*/
 	.p-img{width: 100%}
 
 	button.accordion span{background-color: #8c62c3;color: #fff;}
-
+    .btn-about-cv{margin: 2rem 0 0;}
 
 }
-/*me quede aquí*/
 
 @media screen and (max-width: 860px){
    
@@ -89,7 +90,8 @@
 	    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
     .photo{margin-top: 0px;}
 	.photo img{width: 40%;}
-	.intro{padding-top: 0%;width: 59%;}
+	.intro{padding-top: 0%;width: 60%;}
+
 		/*.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}*/
  .about{/*padding: 2.0rem 0px 2.5rem;*/padding: 0;}
   .services{    padding: 4.5rem 0 4.5rem;}
@@ -106,13 +108,21 @@
       .card-p.small{width: 100%;}
 
       .projects {padding: 4rem 0px 2rem;}
+  .collapse-section {width: 37%;}
+      .p-img-phone {border-radius:30px;width: 65%;}
 
 
 }
 
 @media screen and (max-width: 720px){
-	  .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
-     .nav-logo{ width: 32px; height: 32px; top: 6px;    margin-left: -10px;}
+	  .languages{padding-left: 0.3rem;/*vertical-align: text-top;*/font-size: 1rem;line-height: 8px;height: 8px;display: inline;}
+     .nav-logo{width: 30px;/* height: 32px; */top: 9px;line-height: 13px;/*margin-left: -10px;*/margin-left: -21px;}
+     .nav-toggle{height: 3.5rem;    width: 1.6rem;}
+     .nav-toggle .nav-toggle-bar{height: 0.29rem;}
+     .nav-toggle:before{top: 1.18rem;}
+     .nav-toggle .nav-toggle-bar, .nav-toggle .nav-toggle-bar::after, .nav-toggle .nav-toggle-bar::before{height: 0.29rem;}
+
+
     
 	  .name-lettering{width: 90%;}
 	  .links-header{width: 70%;}
@@ -123,10 +133,10 @@
 
 	.projects h2 span{left: -16px;}
     .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
-    .about{padding: 1rem 0px 2rem;}
+    .about{padding: 0rem 0px 2rem;}
 	.photo img{width: 40%;}
-	.intro {padding-top: 5%;}
-	.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}
+	.intro {padding-top: 0%;}
+	.collapse-section {float: right;padding-left: 0%;padding-top: 1%;}
 
 	.can_do {display: none;}
 	.services{padding: 2.5rem 0 3.5rem;}
@@ -142,10 +152,17 @@
     .hoverp .link-p{transform: translateX(-1rem);}
 
 
-
+    .p-img-phone {border-radius:20px;width: 59%;}
+    .btn-about-cv {margin: 1rem 0 0;}
+}
+@media screen and (max-width: 678px){
+	.intro{width: 100%;}
+	.collapse-section {
+    width: 44%;float: left;padding-top: 6%; padding-left: 0;}
+    .p-img-phone{width: 75%;}
 }
 
-
+/* me qude aui*/
 @media screen and (max-width: 600px){
 
 
@@ -164,18 +181,28 @@
   .services img{text-align: center;width: 55%;}
   .content-text{padding: 0 4rem;}
   .services h3{padding: 0%;}
-  .title-services{top: 5px;color:#8c62c3;}
+  .title-services{top: 18px;color:#8c62c3;}
   .can_do{display: none;}
   .presentation h2{display: inline-block;margin-left: 0px;text-align: left;}
   .photo img{width: 50%;}
-  .intro{padding-top: 5%;}
-  .collapse-section{float: right;padding-left: 0%;padding-top: 10%;}
+  .intro{padding-top: 0%;}
+  .presentation h2{margin-bottom: 0px;}
+  .collapse-section{float: none;padding-left: 0%;padding-top: 5%;width: 100%;}
 
 
 
 
-  .languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
-  .nav-logo{ width: 32px; height: 32px; top: 6px;}
+  /*.languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
+  .nav-logo{ width: 32px; height: 32px; top: 6px;}*/
+   .languages{padding-left: 0.3rem;font-size: 1.08rem;vertical-align: sub;}
+     .nav-logo{width: 30px;height: 28px;top: 12px;/*margin-left: -10px;*/margin-left: 0px;}
+     .nav-toggle{height: 3.5rem;    width: 1.6rem;}
+     .nav-toggle .nav-toggle-bar{height: 0.29rem;}
+     .nav-toggle:before{top: 1.18rem;}
+     .nav-toggle .nav-toggle-bar, .nav-toggle .nav-toggle-bar::after, .nav-toggle .nav-toggle-bar::before{height: 0.29rem;}
+
+
+
   .name-lettering{width: 98%;}
   .hero-text h4{ font-size: 1.35rem;}
 
@@ -188,9 +215,11 @@
 
     .more a{float: left;margin-top: -30px;}
 
-
+    .bcodedemo-small{display: block;}
+    .p-img-phone {width: 53%;}
 }
-/*me quede hasta 520 px terminado*/
+
+
 @media screen and (max-width: 520px){
 
 	.offcanvas .content .logo{width: 9%;margin-top: -10px;margin-left: -10px;}
