@@ -51,7 +51,7 @@
 		.collapse-section {float:none;padding-left:4%;padding-top:2%;}
      .can_do{display: none;}
      .about{padding: 0rem 0px 2.5rem;}
-     .btn-about-cv{display: block;}
+     .btn-about-cv{display: block;transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s; transition: 0.8s;}
      .services{padding: 2.5rem 0 4.5rem;}
   .title-services{top: 15px;color: #8c62c3;}
 
@@ -189,7 +189,7 @@
   .presentation h2{margin-bottom: 0px;}
   .collapse-section{float: none;padding-left: 0%;padding-top: 5%;width: 100%;}
 
-
+ 
 
 
   /*.languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
@@ -201,7 +201,7 @@
      .nav-toggle:before{top: 1.18rem;}
      .nav-toggle .nav-toggle-bar, .nav-toggle .nav-toggle-bar::after, .nav-toggle .nav-toggle-bar::before{height: 0.29rem;}
 
-
+   .offcanvas .content .logo{width: 7.5%;}
 
   .name-lettering{width: 98%;}
   .hero-text h4{ font-size: 1.35rem;}
@@ -251,12 +251,13 @@
 
 
 }
+/*estoy aqui*/
 @media screen and (max-width: 440px){
 
     .offcanvas .content .logo{width: 11%;margin-top: -10px;margin-left: -10px;}
-	.languages{ vertical-align: bottom;}
+	.languages{}
 
-	.nav-logo {width: 33px;height: 38px;top: 8px;}
+	.nav-logo {top: 11px;left: 4px;width: 31px;}
 
     .links-header{width: 45%;}
 	.scrolld-header {bottom: 12%;height: 15%;}
@@ -279,7 +280,7 @@
 
     .description-p{font-size: 2rem;}
 
-
+    .shape{stroke-dasharray: 0;stroke-dashoffset:0; transition: none;}
 }
 
 
