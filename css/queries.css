@@ -260,12 +260,12 @@
     .nav-toggle:before {top: 1.3rem;}
     .offcanvas .content ul li a{font-size: 2.4rem;}
     .offcanvas .content .logo {width: 10%;margin-top: -9px;margin-left: 8px;}
-
+    .offcanvas .content ul{margin: 0;}
 
 	.nav-logo {top: 11px;left: 4px;width: 28px;}
 
     .links-header{width: 45%;}
-	.scrolld-header {bottom: 12%;height: 15%;}
+	.scrolld-header {bottom: 20%;height: 15%;}
 	.scrolld-header svg {position: relative;top: 0rem;}
 	.scroll-d{display: block;}
 
