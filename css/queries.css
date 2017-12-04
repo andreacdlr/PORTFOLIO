@@ -255,9 +255,9 @@
 @media screen and (max-width: 440px){
 
     .offcanvas .content .logo{width: 11%;margin-top: -10px;margin-left: -10px;}
-	.languages{}
+	.languages{padding-left: 0.5rem;font-size: 1.0rem;}
 
-	.nav-logo {top: 11px;left: 4px;width: 31px;}
+	.nav-logo {top: 11px;left: 4px;width: 28px;}
 
     .links-header{width: 45%;}
 	.scrolld-header {bottom: 12%;height: 15%;}
@@ -298,8 +298,8 @@
     .description-projects{padding-bottom: 10%;}
 
     .description-projects p{font-size: 16px;}
-    .bcodedemo-small{text-align: center;}
-    .bcodedemo-small a {/*width: 45%;*/    background-color: #e6e0ec; color: #8c62c3;padding: 0.3rem 2rem;text-align: center;float: none;display: inline-block;margin: 0 auto;border: none;}
+    .bcodedemo-small{text-align: center;padding-top: 3rem;}
+    .bcodedemo-small a {/*width: 45%;*/background-color: #8c62c3; color: #fff;text-align: center;float: none;display: inline-block;margin: 0 auto;border: none;}
 
     .photo{width: 80%;margin: 0 auto;}
     .photo img {width: 95%;}
@@ -334,8 +334,8 @@
     .about{padding: 1rem 0px 1rem;}
     .about h3{font-size: 2.5rem;text-align: left;font-weight: 500;}
 
-    .presentation h2{margin-left: 0px;font-size: 4rem; text-align: center;}
-    .intro{width: 100%;padding-top: 10%;}
+    .presentation h2{ margin-left: 0px;font-size: 3.5rem;text-align: left;}
+    .intro{width: 100%;padding-top:5%;}
     .can_do{display: none;}
     .collapse-section{width: 100%;}
     .service-one, .service-two, .service-three{padding: 4rem 0 0;}
