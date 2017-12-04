@@ -51,7 +51,7 @@
 		.collapse-section {float:none;padding-left:4%;padding-top:2%;}
      .can_do{display: none;}
      .about{padding: 0rem 0px 2.5rem;}
-     .btn-about-cv{display: block;transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s; transition: 0.8s;}
+     .btn-about-cv{display: block;transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s; transition: 0.8s;margin: 2rem auto 1rem; width: 50%;}
      .services{padding: 2.5rem 0 4.5rem;}
   .title-services{top: 15px;color: #8c62c3;}
 
@@ -63,7 +63,7 @@
 	.p-img{width: 100%}
 
 	button.accordion span{background-color: #8c62c3;color: #fff;}
-    .btn-about-cv{margin: 2rem 0 0;}
+
 
 }
 

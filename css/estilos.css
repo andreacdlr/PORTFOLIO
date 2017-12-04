@@ -76,6 +76,8 @@ body {
 
 main {
 	flex: 1 0 auto;
+
+	z-index: 0;
 }
 
 header{
@@ -1382,7 +1384,26 @@ button.accordion.active, button.accordion:hover {
 }
     /*END ACCORDION ABOUT*/
     .div-btn-about{text-align: center;}
-    .btn-about-cv{display: none;}
+    .btn-about-cv{display: none;   
+
+    /*box-shadow: none;
+    font-size: 13px;
+    opacity: 0;*/
+   
+   
+    }
+
+    .btn-about-cv span{
+	    padding: 0.8rem 2rem;
+	   
+	/*  background-color: #5d1fae;
+    -webkit-transform: translate(0px, 65px);
+    -ms-transform: translate(0px, 65px);
+    transform: translate(0px, 65px);
+    transition: opacity 1200ms, transform 1200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+	    border-radius: 999rem;
+	    color: #fff;*/
+    }
 
     /* END ABOUT SECTION */
 
@@ -2668,6 +2689,40 @@ select:focus {
 
 
 /*css projects page*/
+
+.logo-fix{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    height: 3.2rem;
+    position: fixed;
+    left: 2rem;
+    top: 0.46rem;
+    width: 1.6rem;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .top-project{
 	width: 92%;
 	margin: 0 auto;
