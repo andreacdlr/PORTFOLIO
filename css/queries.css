@@ -51,7 +51,7 @@
 		.collapse-section {float:none;padding-left:4%;padding-top:2%;}
      .can_do{display: none;}
      .about{padding: 0rem 0px 2.5rem;}
-     .btn-about-cv{display: block;transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s; transition: 0.8s;margin: 2rem auto 1rem; width: 50%;}
+     .btn-about-cv{display: block;transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s; transition: 0.8s;margin: 0 auto; width: 50%;}
      .services{padding: 2.5rem 0 4.5rem;}
   .title-services{top: 15px;color: #8c62c3;}
 
@@ -153,7 +153,7 @@
 
 
     .p-img-phone {border-radius:20px;width: 59%;}
-    .btn-about-cv {margin: 1rem 0 0;}
+    .btn-about-cv {/*margin: 1rem 0 0;*/}
 }
 @media screen and (max-width: 678px){
 	.intro{width: 100%;}
@@ -194,7 +194,7 @@
 
   /*.languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
   .nav-logo{ width: 32px; height: 32px; top: 6px;}*/
-   .languages{padding-left: 0.3rem;font-size: 1.08rem;vertical-align: sub;}
+   .languages{padding-left: 0.3rem;font-size: 1.08rem;vertical-align: sub !important;}
      .nav-logo{width: 30px;height: 28px;top: 12px;/*margin-left: -10px;*/margin-left: 0px;}
      .nav-toggle{height: 3.5rem;    width: 1.6rem;}
      .nav-toggle .nav-toggle-bar{height: 0.29rem;}
@@ -370,7 +370,7 @@
 	.bottom-info div [class*="fa"]{font-size: 19px !important;}
 	.bottom-info div{line-height: 3rem;}
     
-    
+     
 
     /*more projects*/
     
@@ -379,6 +379,8 @@
     .link-p {    right: 2px;bottom: 12px}
     .hoverp .link-p{transform: translateX(-1rem);}
 
+    .btn-about-cv{width: 75%;margin-bottom: 2rem;}
+    .div-btn-about{margin-bottom: 1.8rem;}
 
 }
 
