@@ -2796,7 +2796,8 @@ select:focus {
 .types-projects  li {
 	/* border: 1px solid #000; */
     padding: 0.5rem 1rem;
-    background: white;
+    background: #fff;
+    /*border: 1px solid #fff;*/
     display: table;
     margin: 0 ;
     /* float: left; */
@@ -2804,6 +2805,7 @@ select:focus {
     text-align: left;
     vertical-align: middle;
 }
+.types-projects  li:hover{background: transparent;transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;/*border: 1px solid #000;*/}
 .types-projects a{
 	color: #000;
 }
@@ -3122,6 +3124,7 @@ select:focus {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #8c62c3; 
 }
 
 
