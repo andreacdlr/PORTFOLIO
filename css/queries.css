@@ -6,6 +6,8 @@
 	.intro {width: 52%;}
 	.description-phone{margin: 4rem 0 0 0;width: 70%;}
     .description-projects {padding: 1.1rem 1rem; margin: 1rem 0 1rem;}
+
+    .logo-fix{left: 2rem;}
 }
 @media screen and (max-width: 1020px){
 	.scrolld-header{bottom: 15%;}
@@ -64,7 +66,8 @@
 
 	button.accordion span{background-color: #8c62c3;color: #fff;}
 
-
+    .logo-fix{left: 3.5rem;}
+    .logo-fix .nav-logo{width: 33px;}
 }
 
 @media screen and (max-width: 860px){
@@ -112,6 +115,9 @@
       .p-img-phone {border-radius:30px;width: 65%;}
 
 
+       .logo-fix{left: 3rem;}
+
+
 }
 
 @media screen and (max-width: 720px){
@@ -153,13 +159,21 @@
 
 
     .p-img-phone {border-radius:20px;width: 59%;}
-    .btn-about-cv {/*margin: 1rem 0 0;*/}
+    .btn-about-cv {width: 60%;}
+
+
+     .logo-fix{left: 2.3rem;}
+
+
 }
+
 @media screen and (max-width: 678px){
 	.intro{width: 100%;}
 	.collapse-section {
     width: 44%;float: left;padding-top: 6%; padding-left: 0;}
     .p-img-phone{width: 75%;}
+
+    .bg-project .nav-toggle{right: 1rem;}
 }
 
 /* me qude aui*/
@@ -187,7 +201,7 @@
   .photo img{width: 50%;}
   .intro{padding-top: 0%;}
   .presentation h2{margin-bottom: 0px;}
-  .collapse-section{float: none;padding-left: 0%;padding-top: 5%;width: 100%;}
+  .collapse-section{float: none;padding-left: 0%;padding-top: 10%;width: 100%;}
 
  
 
@@ -217,6 +231,9 @@
 
     .bcodedemo-small{display: block;}
     .p-img-phone {width: 53%;}
+
+    .logo-fix{left: 0.6rem;}
+
 }
 
 
@@ -240,7 +257,7 @@
 
 
    .intro{width: 100%;}
-   .collapse-section{width: 100%;padding-top: 5%;}
+   .collapse-section{width: 100%;}
    .photo{margin-top: 0px;}
 
    .projects h2{font-size: 4.2rem;}
@@ -248,6 +265,11 @@
    .section {padding: 0% 2% 4% !important;}
 
    .contact h2 {font-size: 4rem;}
+
+   .logo-fix{left: 0.4rem;}
+   .bg-project .nav-toggle{right: 0.8rem;}
+
+
 
 
 }
@@ -287,6 +309,14 @@
 
     .shape{stroke-dasharray: 0;stroke-dashoffset:0; transition: none;}
     .shape:hover{    fill: #fdfdfd3b;}
+
+    .logo-fix{left: 0rem;}
+    .bg-project .nav-toggle{right: 0.6rem;}
+
+    .title-small{font-size: 2.2rem;}
+    .project-contact h2 {font-size: 3.4rem;}
+
+
 }
 
 
@@ -376,11 +406,29 @@
     
     .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;}
     .card-col span{top: 7.60rem;}
-    .link-p {    right: 2px;bottom: 12px}
+    /*.link-p {    right: 2px;bottom: 12px}*/
     .hoverp .link-p{transform: translateX(-1rem);}
 
     .btn-about-cv{width: 75%;margin-bottom: 2rem;}
     .div-btn-about{margin-bottom: 1.8rem;}
+
+    .title-small{ font-size: 2rem;letter-spacing: 0.3rem;}
+
+
+    .bg-project{padding: 0 0 1rem 0;}
+    .project-contact h2{font-size:2.8rem;}
+
+    .container-p{max-width: 100%;}
+
+    .link-p {right: 10px; bottom: 22px;}
+   .top-project{width: 100%; margin-top: 2rem;}
+   .top-project p{text-align: left;}
+   .logo-fix{left: 0.8rem;}
+
+   .divided{
+   	 margin-top: 2rem;
+    margin-bottom: 0rem;
+   }
 
 }
 

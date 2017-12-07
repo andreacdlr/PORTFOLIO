@@ -3041,7 +3041,7 @@ select:focus {
 .hoverp .overlay-p{
 	opacity: 1;
     /*background: rgba(0,0,0,0.6);*/
-    background: rgba(140, 98, 195, 0.65);
+    background: #e7e7e5;
     /*background: rgba(220, 220, 220, 0.53);*/
     /*background: rgba(247, 247, 247, 0.72);*/
     visibility: visible;
@@ -3155,7 +3155,7 @@ select:focus {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    border: 1px solid #8c62c3;
+    /*border: 1px solid #8c62c3;*/
     /* background-color: transparent; */
     border-radius: 0px;
     overflow: hidden;
@@ -3197,3 +3197,11 @@ select:focus {
     z-index: -1;
 }
 
+.project-contact{
+
+    background-color:#1b1a25e3;
+    text-align: center;
+    padding: 3.2rem 0px; 
+    color: #fff;
+    margin-top: 2rem;
+}
