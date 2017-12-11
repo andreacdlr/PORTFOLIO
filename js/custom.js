@@ -9,7 +9,30 @@ $(function() {
 });
 
 
+ $(document).ready(function(){
+             $(".card-link").hover(
+                  function () {
+                    $(this).addClass("hoverp");
+                  },
+                  function () {
+                    $(this).removeClass("hoverp");
+                  }
+             );
+        });
 
+
+/*
+$(function() {
+  $('.').on("click", function (e) {
+    $('.').toggleClass("overlay-p");
+        $('.').on("click", function (e) {
+            $('.').removeClass("");
+        });
+        e.preventDefault();
+  });
+});
+
+*/
 
 
 
@@ -209,16 +232,7 @@ for (i = 0; i < acc.length; i++) {
 //	};
 
 
- $(document).ready(function(){
-             $(".card-link").hover(
-                  function () {
-                    $(this).addClass("hoverp");
-                  },
-                  function () {
-                    $(this).removeClass("hoverp");
-                  }
-             );
-        });
+
 
 
 

@@ -767,6 +767,7 @@ h4{
 	width: 80%;
 }
 .more a>i{
+	color: #8c62c3;
     font-size: 2rem;
 	vertical-align: middle;
 	-webkit-animation: fade_move_down 2s ease-in-out infinite;
@@ -1173,6 +1174,28 @@ h4{
 
 /* END LINKS FIXED PROJECTS*/
 
+.flat-style{
+	/*background: #8c62c3;*/
+    width: 100%;
+    position: relative;
+    display: block;
+    float: none;
+    text-align: center;
+}
+.flat-style a{
+	    float: none;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem 2rem 3rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    width: 80%;
+    background: #8c62c3;
+}
+.flat-style a i{
+	vertical-align: middle;
+}
 
 /* END PROJECTS SECTION */
 
@@ -1233,6 +1256,8 @@ h4{
     margin-top: -50px;*/
     text-align: center;
     /*margin-top: -5px;*/
+
+    display: none;
 }
 .photo img{
 	/*width: 85%;*/
@@ -2994,7 +3019,7 @@ select:focus {
      transition: ease 0.3s transform;
       transition-delay: 0.08s;
     vertical-align: middle;
-    opacity: 0;
+    opacity:/* 0*/ 1;
     color: #fff;
 	font-size: 2.5rem;
     font-weight: 500;
@@ -3029,10 +3054,13 @@ select:focus {
             
 
             /*visibility: hidden;*/
-            visibility: visible;
             /*opacity: 0;*/
-            opacity: 1;
-             background: rgba(0,0,0,0.2);
+
+            /*visibility: visible;*/
+            
+           
+           /* opacity: 1;*/
+            /* background: rgba(0,0,0,0.2);*/
             transition: ease all 0.4s;
             -webkit-transition: ease all 0.4s;
     -o-transition: ease all 0.4s;
@@ -3205,3 +3233,20 @@ select:focus {
     color: #fff;
     margin-top: 2rem;
 }
+
+.overlay-gray{
+	height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    opacity: .83;
+    background: #f7f7f7/*rgba(234, 234, 234, 0.77)*/ ;
+    transition: ease all 0.4s;
+    -webkit-transition: ease all 0.4s;
+
+    padding: 2rem;
+    opacity: .8;
+}
+
+

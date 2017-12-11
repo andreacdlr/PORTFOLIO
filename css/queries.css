@@ -88,6 +88,8 @@
 	  .scrolld-header {bottom: 8%;height: 15%;}
 	.scrolld-header svg {position: relative;top: 0rem;}
 	.scroll-d{display: block;}
+	.projects { padding: 4rem 0px 2rem;}
+	/*.projects {padding: 0.5rem 0px 0rem;}*/
 	.projects h2 span{left: -14px;}
 	.study-projects{font-size: 0.9rem;}
 	    .presentation h2{margin-left: 0px;text-align: left;margin-top: 0;}
@@ -110,7 +112,7 @@
       /*more projects*/
       .card-p.small{width: 100%;}
 
-      .projects {padding: 4rem 0px 2rem;}
+      
   .collapse-section {width: 37%;}
       .p-img-phone {border-radius:30px;width: 65%;}
 
@@ -224,6 +226,7 @@
   .scrolld-header {bottom: 12%;height: 15%;}
 	.scrolld-header svg {position: relative;top: 0rem;}
 	.scroll-d{display: block;}
+	.projects {padding: 0.5rem 0px 0rem;}
 	    .projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
       .description-projects{padding-bottom: 3%;}
 
@@ -297,11 +300,12 @@
     .hero-text h4{ font-size: 1.35rem;}
 
 	.more a{float: left;margin-top: -14px;}
-	.projects{padding: 3rem 0px 2rem;}
+	.projects{padding: 2rem 0px 0rem;}
 	.projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
     .bcodedemo-small {padding-top: 7%;}
 
     .presentation h2{font-size: 4rem;text-align: left;}
+
     .photo img {width: 70%;}
     .contact h2 {font-size: 3.2rem;}
 
@@ -316,10 +320,21 @@
     .title-small{font-size: 2.2rem;}
     .project-contact h2 {font-size: 3.4rem;}
 
+        .container-p{max-width: 100%;}
+        .project-contact{margin-top: 0;}
+
+
+
 
 }
 
+@media screen and (max-width: 380px){
 
+	    .photo{width: 100%;margin: 0 auto;display: block;padding-top: 1rem;}
+	            .bg-purple{background-position: left;background: /*#2e2448*/#31274c;}
+
+
+}
 @media screen and (max-width: 320px){
 
     .hero{background-position: right -286px top 0;}
@@ -331,7 +346,7 @@
 
     
     
-    .projects{padding: 4rem 0px 2rem;}
+    .projects{padding: 2rem 0px 0rem;}
     .projects h2{font-size: 3.5rem;}
     .projects h2 span{position: relative;left: 0; top: 0;line-height: 0.9;font-size: 2.5rem}
     .description-projects{padding-bottom: 10%;}
@@ -339,8 +354,8 @@
     .description-projects p{font-size: 16px;}
     .bcodedemo-small{text-align: center;padding-top: 3rem;}
     .bcodedemo-small a {/*width: 45%;*/background-color: #8c62c3; color: #fff;text-align: center;float: none;display: inline-block;margin: 0 auto;border: none;}
-
-    .photo{width: 80%;margin: 0 auto;}
+     
+    .photo{width: 80%;margin: 0 auto;display: block;}
     .photo img {width: 95%;}
 	.border-r{border-right: none;}
 	.title-services{top: 30px;}
@@ -370,7 +385,7 @@
     	top: 0;
     	left: 0;
     }*/
-    .about{padding: 1rem 0px 1rem;}
+    .about{padding: 0rem 0px 1rem;}
     .about h3{font-size: 2.5rem;text-align: left;font-weight: 500;}
 
     .presentation h2{ margin-left: 0px;font-size: 3.5rem;text-align: left;}
@@ -418,17 +433,15 @@
     .bg-project{padding: 0 0 1rem 0;}
     .project-contact h2{font-size:2.8rem;}
 
-    .container-p{max-width: 100%;}
 
     .link-p {right: 10px; bottom: 22px;}
    .top-project{width: 100%; margin-top: 2rem;}
    .top-project p{text-align: left;}
    .logo-fix{left: 0.8rem;}
 
-   .divided{
-   	 margin-top: 2rem;
-    margin-bottom: 0rem;
-   }
+   .divided{margin-top: 2rem; margin-bottom: 0rem;}
+
+   .flat-style a{margin: 0 0 1rem 0;}
 
 }
 
