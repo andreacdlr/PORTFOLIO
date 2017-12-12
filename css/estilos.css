@@ -2868,25 +2868,25 @@ select:focus {
     text-transform: uppercase;
     text-decoration: none;*/
     
-    color: #000;
+    /*color: #000;*/
     font-size: 1rem;
     letter-spacing: 2px;
     position: absolute;
     padding: 0.2rem 0.4rem;
-    top: 5.85rem;
-    left: 0.50rem;
+    top: /*5.85rem*/ 4rem;
+    left: /*0.50rem*/ 0rem;
     transition: ease 0.4s transform;
     transition-delay: 0.08s;
     vertical-align: middle;
-    opacity: 0;
-    color: #fff;
+    opacity: 1;
+    /*color: #fff;*/
     font-size: 1rem;
     /* font-weight: 500; */
     text-transform: uppercase;
     border: 1px solid #fff;
 }
 .hoverp  span{
-	transform: translateX(1.5rem);
+	transform: translateX(0.6rem);
       transition: ease all 0.9s;
             -webkit-transition: ease all 0.9s;
     -o-transition: ease all 0.9s;
@@ -2907,8 +2907,14 @@ select:focus {
    
     z-index: 1;
 }
+.card-description{
+	    width: 100%;
+    height: 100%;
+    background: #efefef;
+    padding: 1rem 1.5rem;
+}
 .landing-v{
-	 background-image: url(../img/landing-b.png);
+	 background-image: /*url(../img/landing-b.png)*/url(../img/mockup-ejem.jpg);
     background-size: cover;
 }
 /*.landing-v .hoverp{
@@ -3011,17 +3017,28 @@ select:focus {
 
 }
 .description-p{
-	position: absolute;
-	/*padding: 1rem;*/
+	/*position: absolute;
+	
 	
 	top: 1.75rem;
     left: 0.52rem;
      transition: ease 0.3s transform;
       transition-delay: 0.08s;
     vertical-align: middle;
-    opacity:/* 0*/ 1;
+    opacity:/* 0 1;
     color: #fff;
 	font-size: 2.5rem;
+    font-weight: 500;*/
+
+    position: absolute;
+    top: 1.75rem;
+    left: 1.52rem;
+    transition: ease 0.3s transform;
+    transition-delay: 0.08s;
+    vertical-align: middle;
+    opacity:1;
+    color: #7b7979;
+    font-size: 2.2rem;
     font-weight: 500;
 
 
@@ -3033,9 +3050,9 @@ select:focus {
 
 .hoverp .description-p{
      
-     transform: translateX(1rem);
+     transform: translateX(0.5rem);
       transition: ease all 0.4s;
-            -webkit-transition: ease all 0.4s;
+      -webkit-transition: ease all 0.4s;
     -o-transition: ease all 0.4s;
     z-index: 2;
     opacity: 1;
@@ -3069,7 +3086,7 @@ select:focus {
 .hoverp .overlay-p{
 	opacity: 1;
     /*background: rgba(0,0,0,0.6);*/
-    background: #e7e7e5;
+    background: /*#e7e7e5*/ #e7e7e59c;
     /*background: rgba(220, 220, 220, 0.53);*/
     /*background: rgba(247, 247, 247, 0.72);*/
     visibility: visible;
@@ -3078,15 +3095,17 @@ select:focus {
 
 .link-p {
 
-	visibility: hidden;
-    opacity: 0;
+	/*visibility: hidden;*/
+    opacity: 1;
     position: absolute;
     /*right: 20px;*/
-        right: -3.5rem;
+    right:3%;
+       /* right: -3.5rem;*/
+
    /* z-index: ;*/
     -webkit-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
-	bottom: 20px;
+	bottom: 5%;
     /*-webkit-transition: 0.3s ease;
     transition: 0.3s ease;
    border-radius: 50%;
@@ -3106,10 +3125,10 @@ select:focus {
     height: 35px;
     /*border: 1px solid rgba(255,255,255,0.6);*/
     /*border: 2px solid #8c62c3;*/
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 50%;
 	/*color: #fff;*/
-	color: #fff;
+	color: #000;
 	 -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 
@@ -3129,17 +3148,19 @@ select:focus {
 .link-p i:hover{
 	    /*border: 1px solid rgba(105, 26, 165, 0.6);
 	    color: #8c62c3;*/
-	    background-color: #fff;
-	    color: #8c62c3;
-	        transition:  0.3s ease-in-out;
+	    
+	    transition:  0.3s ease-in-out;
+	    opacity: 0.7
 
 
 }
 
 .hoverp .link-p {
+
+
     opacity: 1;
     visibility: visible;
-    transform: translateX(-5rem);
+    transform: /*translateX(-5rem)*/translateY(-0.5rem);
       transition: ease all 0.5s;
             -webkit-transition: ease all 0.5s;
     -o-transition: ease all 0.5s;

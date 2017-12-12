@@ -155,7 +155,7 @@
    /*more projects*/
     
     .description-p{position: relative;    top: 2.75rem;}
-    .card-col span{top: 7.50rem;}
+    /*.card-col span{top: 7.50rem;}*/
     .link-p {    right: 2px;bottom: 12px}
     .hoverp .link-p{transform: translateX(-1rem);}
 
@@ -324,6 +324,11 @@
         .project-contact{margin-top: 0;}
 
 
+   .section-contact-information{padding: 3rem 0px !important;}
+
+   .content-text {padding: 0 3rem;}
+
+    .about-bg {padding: 40px 2px;}
 
 
 }
@@ -332,6 +337,7 @@
 
 	    .photo{width: 100%;margin: 0 auto;display: block;padding-top: 1rem;}
 	            .bg-purple{background-position: left;background: /*#2e2448*/#31274c;}
+         
 
 
 }
@@ -353,7 +359,7 @@
 
     .description-projects p{font-size: 16px;}
     .bcodedemo-small{text-align: center;padding-top: 3rem;}
-    .bcodedemo-small a {/*width: 45%;*/background-color: #8c62c3; color: #fff;text-align: center;float: none;display: inline-block;margin: 0 auto;border: none;}
+    /*.bcodedemo-small a {width: 45%;}*/
      
     .photo{width: 80%;margin: 0 auto;display: block;}
     .photo img {width: 95%;}
@@ -366,8 +372,8 @@
 	.section{padding: 0% !important;}
 	.contact .section h2{font-size: 2.7rem;}
 	.contact .section p{/*font-size: 14.5px;line-height: 2.3rem;*/font-size: 16px;line-height: 1.89;letter-spacing: -.004em;}
-	.section-contact-information{padding: 3rem 0px !important;}
-	.section-contact-information h4{text-align: left;}
+	/*.section-contact-information{padding: 3rem 0px !important;}*/
+	/*.section-contact-information h4{text-align: left;}*/
 	.section-contact-information span{width: 100%;}
 	.svg-mail{display: none;}
 	.svg-phone{display:none;width: 13%;padding-right: 20%;}
@@ -420,7 +426,7 @@
     /*more projects*/
     
     .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;}
-    .card-col span{top: 7.60rem;}
+    /*.card-col span{top: 7.60rem;}*/
     /*.link-p {    right: 2px;bottom: 12px}*/
     .hoverp .link-p{transform: translateX(-1rem);}
 
@@ -442,6 +448,9 @@
    .divided{margin-top: 2rem; margin-bottom: 0rem;}
 
    .flat-style a{margin: 0 0 1rem 0;}
+
+    .content-text {padding: 0 1rem;}
+    .about-bg {padding: 30px 2px;}
 
 }
 

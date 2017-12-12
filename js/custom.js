@@ -21,18 +21,6 @@ $(function() {
         });
 
 
-/*
-$(function() {
-  $('.').on("click", function (e) {
-    $('.').toggleClass("overlay-p");
-        $('.').on("click", function (e) {
-            $('.').removeClass("");
-        });
-        e.preventDefault();
-  });
-});
-
-*/
 
 
 
