@@ -156,7 +156,7 @@
     
     .description-p{position: relative;    top: 2.75rem;}
     /*.card-col span{top: 7.50rem;}*/
-    .link-p {    right: 2px;bottom: 12px}
+    .link-p {    right: 11px;bottom: 12px}
     .hoverp .link-p{transform: translateX(-1rem);}
 
 
