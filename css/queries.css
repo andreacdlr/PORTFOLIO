@@ -425,9 +425,10 @@
 
     /*more projects*/
     
-    .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;}
+    .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;padding: 4%;}
     /*.card-col span{top: 7.60rem;}*/
     /*.link-p {    right: 2px;bottom: 12px}*/
+    .description-p h2{font-size: 2rem;}
     .hoverp .link-p{transform: translateX(-1rem);}
 
     .btn-about-cv{width: 75%;margin-bottom: 2rem;}
@@ -451,6 +452,11 @@
 
     .content-text {padding: 0 1rem;}
     .about-bg {padding: 30px 2px;}
+
+    .tags-projects div{margin-bottom: 5px;font-size: 13px;padding: 2% 3%;margin-right: 8px;}
+    .tags-projects{height: auto;overflow: inherit;    display: inline-block;}
+    .hoverp .description-p{ transform: translateX(0rem);}
+    .description-p i{display: none;}
 
 }
 

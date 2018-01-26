@@ -2869,8 +2869,8 @@ select:focus {
     text-decoration: none;*/
     
     /*color: #000;*/
-    font-size: 14px;
-    letter-spacing: 0.5px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
     /*position: absolute;*/
     padding: 0.2rem 0.4rem;
     /*bottom: 0rem;*/
@@ -2881,7 +2881,7 @@ select:focus {
     opacity: 1;
     /*color: #fff;*/
     /* font-weight: 500; */
-    text-transform: uppercase;
+    
     background-color: #f2f2f2;
     color: #7d7b7b;
 
@@ -2895,6 +2895,8 @@ select:focus {
     opacity: 1;
     background-color: #7d7b7b;
     color: #fff;
+
+
    
 }
 
@@ -2919,7 +2921,7 @@ select:focus {
     padding: 1rem 1.5rem;
 }
 .tags-projects{
-	margin-bottom: .8rem;
+	margin-bottom: .2rem;
     /*-webkit-transition: ease all 0.4s;
     -o-transition: ease all 0.4s;
     transition: ease all 0.4s;*/
@@ -2930,9 +2932,9 @@ select:focus {
 
 }
 .tags-projects div{
-	    float: left;
+	 
     /*font-size: 13px;*/
-    font-size: 1rem;
+    font-size: /*1rem*/ 14px;
     /*letter-spacing: 2px;*/
     /* font-family: 'kepler-std-medium'; */
     text-transform: uppercase;
@@ -2943,11 +2945,13 @@ select:focus {
     margin-right: 10px;
     /*color: #fff;*/
     opacity: 1;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
+    border: 1px solid rgba(255, 255, 255, 0.5);
     transition: ease 0.4s transform;
     -webkit-transition: ease 0.4s transform;
     -o-transition: ease 0.4s transform;
     transition-delay: 0.08s;
+    font-weight: 400;
 }
 .hoverp  .tags-projects div{
 	transform: translateX(0.6rem);
@@ -2970,6 +2974,10 @@ select:focus {
 }
 .landing-embajadoresdemarca{
 	 background-image: /*url(../img/landing-b.png)*/url(../img/landing-embajadoresdemarca-2.jpg);
+    background-size: cover;
+}
+.landing-plantillaweb{
+	 background-image: /*url(../img/landing-b.png)*/url(../img/plantilla-3.jpg);
     background-size: cover;
 }
 /*.landing-v .hoverp{
@@ -3106,7 +3114,7 @@ select:focus {
 	color: /*#777777*/ #fff;
     display: inline-block;
     vertical-align: middle;
-    font-size: 3.5rem;
+    font-size: /*3.5rem*/ 2.5rem;
     margin: 2% 0;
     font-weight: 500;
     float: left;
@@ -3117,9 +3125,9 @@ select:focus {
 }
 
 .description-p i{
-	 font-size: 4rem;
+	 font-size: /*4rem*/ 3rem;
 	color: /*#777777*/ #fff;
-    vertical-align: -webkit-baseline-middle;
+	    vertical-align: unset;
 }
 
 .hoverp .description-p{
