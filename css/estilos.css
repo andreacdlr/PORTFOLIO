@@ -3127,7 +3127,7 @@ select:focus {
 .description-p i{
 	 font-size: /*4rem*/ 3rem;
 	color: /*#777777*/ #fff;
-	    vertical-align: unset;
+	    vertical-align: middle;
 }
 
 .hoverp .description-p{

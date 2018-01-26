@@ -331,6 +331,18 @@
     .about-bg {padding: 40px 2px;}
 
 
+
+
+    .tags-projects div{margin-bottom: 5px;font-size: 13px;padding: 2% 3%;margin-right: 8px;}
+    .tags-projects{height: auto;overflow: inherit;    display: table;}
+    .hoverp .description-p{ transform: translateX(0rem);}
+    .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;padding: 4%;}
+    .description-p i{vertical-align: middle;}
+    .landing-embajadoresdemarca{background-position: left bottom;}
+
+
+
+
 }
 
 @media screen and (max-width: 380px){
@@ -338,6 +350,17 @@
 	    .photo{width: 100%;margin: 0 auto;display: block;padding-top: 1rem;}
 	            .bg-purple{background-position: left;background: /*#2e2448*/#31274c;}
          
+
+
+
+
+
+    .tags-projects div{margin-bottom: 5px;font-size: 13px;padding: 2% 3%;margin-right: 8px;}
+    .tags-projects{height: auto;overflow: inherit;    display: table;}
+    .hoverp .description-p{ transform: translateX(0rem);}
+    .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;padding: 4%;}
+    .description-p i{display: none;}
+    .landing-embajadoresdemarca{background-position: left bottom;}
 
 
 }
