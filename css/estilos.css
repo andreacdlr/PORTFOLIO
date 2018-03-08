@@ -3227,7 +3227,10 @@ select:focus {
 .hoverp .overlay-p{
 	opacity: 1;
     /*background: rgba(0,0,0,0.6);*/
+
     background: /*#e7e7e5*/ /*#e7e7e59c*/ #e7e7e5bd;
+    /*background: rgba(140, 98, 195, 0.65);*/
+
     /*background: rgba(220, 220, 220, 0.53);*/
     /*background: rgba(247, 247, 247, 0.72);*/
     visibility: visible;
@@ -3375,6 +3378,21 @@ select:focus {
     z-index: 1;
     height: 100vh;
     padding: 0 0 4rem 0;
+   
+}
+
+.bg-project-image{
+	background-image: url(../img/background-2.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;*/
+    /* background-position: right -11px top 31%; */
+
+    background-position: right 0px bottom 0%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 100vh;
+    padding: 0 0 5rem 0;
    
 }
 .overlay-bg-project{
