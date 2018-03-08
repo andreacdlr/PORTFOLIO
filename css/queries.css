@@ -8,6 +8,9 @@
     .description-projects {padding: 1.1rem 1rem; margin: 1rem 0 1rem;}
 
     .logo-fix{left: 2rem;}
+
+    .description-p h2{font-size:2.5rem;}
+    .description-p i {font-size: /*4rem*/ 3rem;margin: 2% 0;}
 }
 @media screen and (max-width: 1020px){
 	.scrolld-header{bottom: 15%;}
@@ -68,6 +71,13 @@
 
     .logo-fix{left: 3.5rem;}
     .logo-fix .nav-logo{width: 33px;}
+
+    .tags-projects{max-height: 100%;height: auto;}
+    .tags-projects .tag{margin-right: 6px;padding: 6px;}
+    .hoverp  .tags-projects .tag{transform: translateX(0.2rem);}
+
+	.description-p {top: 1.30rem;left: 1.20rem;}
+	.hoverp .description-p{transform: translateX(0.2rem);}
 }
 
 @media screen and (max-width: 860px){
@@ -119,7 +129,7 @@
 
        .logo-fix{left: 3rem;}
 
-
+  
 }
 
 @media screen and (max-width: 720px){
@@ -154,7 +164,7 @@
 
    /*more projects*/
     
-    .description-p{position: relative;    top: 2.75rem;}
+    .description-p{position: relative;top: 1.75rem;}
     /*.card-col span{top: 7.50rem;}*/
     .link-p {    right: 11px;bottom: 12px}
     .hoverp .link-p{transform: translateX(-1rem);}
@@ -165,6 +175,9 @@
 
 
      .logo-fix{left: 2.3rem;}
+
+     .pageproject-date{margin: 0%;}
+
 
 
 }
@@ -196,7 +209,8 @@
   .service-one, .service-two, .service-three{text-align: center;padding:2rem 0 2rem;}
   .services img{text-align: center;width: 55%;}
   .content-text{padding: 0 4rem;}
-  .services h3{padding: 0%;}
+  .services h3{padding: 0%;text-align: center !important;}
+  .services .content-text{text-align: center !important;}
   .title-services{top: 18px;color:#8c62c3;}
   .can_do{display: none;}
   .presentation h2{display: inline-block;margin-left: 0px;text-align: left;}
@@ -256,6 +270,10 @@
     .projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
     .description-projects{padding-bottom: 5%;}
     .description-projects p{font-size: 16px;}
+    .description-p h2{font-size: 2.5rem;}
+    .description-p i {margin: 1% 0;font-size: 3.5rem /*3rem*/   ;}
+    .description-p {left: 1.10rem;}
+
 
 
 
@@ -301,6 +319,7 @@
 
 	.more a{float: left;margin-top: -14px;}
 	.projects{padding: 2rem 0px 0rem;}
+
 	.projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
     .bcodedemo-small {padding-top: 7%;}
 
@@ -358,11 +377,13 @@
     .tags-projects div{margin-bottom: 5px;font-size: 13px;padding: 2% 3%;margin-right: 8px;}
     .tags-projects{height: auto;overflow: inherit;    display: table;}
     .hoverp .description-p{ transform: translateX(0rem);}
-    .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;padding: 4%;}
+    .description-p{position: relative;top: 0;left: 0;font-size: 2.6rem;padding: 4%; height: 100%;}
     .description-p i{display: none;}
     .landing-embajadoresdemarca{background-position: left bottom;}
 
+    .pageproject-date{position: absolute;bottom: 10px; left: 10px;}
 
+    .hoverp .pageproject-date{transform: translateX(0.3rem);}
 }
 @media screen and (max-width: 320px){
 

@@ -1477,6 +1477,7 @@ button.accordion.active, button.accordion:hover {
     	/*height: 200px;*/
     	/*border-bottom: 1px solid #d5d5d5;*/
     	padding: 4.5rem 0 3rem;
+    	
     }
     .title-services{
 	    position: absolute;
@@ -1506,9 +1507,13 @@ button.accordion.active, button.accordion:hover {
     .services h3{
 	    font-size: 2rem;
 	    padding: 3% 0;
+	    text-align: left !important;
 	    /* background-color: rgba(140, 98, 195, 0.61); */
 	    /* color: #fff; */
 	    /* border-bottom: 2px solid #8c62c3; */
+    }
+    .services .content-text{
+    	text-align: left !important;
     }
 
     /* END SERVICES SECTION */
@@ -2837,7 +2842,7 @@ select:focus {
 .types-projects i{
 	vertical-align: middle;
 }
-.design-w-section,.design-ux-section{
+.design-w-section,.design-ux-section,.frontend-section{
 	position: relative;
 	margin-bottom: 2%;
 }
@@ -2855,7 +2860,7 @@ select:focus {
 	box-sizing: border-box;
 
 }
-.card-col span{
+.pageproject-date{
 
 	/*position: absolute;
     bottom: 13%;
@@ -2885,8 +2890,19 @@ select:focus {
     background-color: #f2f2f2;
     color: #7d7b7b;
 
+    /*    display: block;
+    text-align: left;
+    position: relative;
+    width: max-content;*/
+
+        display: -webkit-box;
+    text-align: left;
+    position: relative;
+    width: max-content;
+    margin: 3% 0;
+
 }
-.hoverp  span{
+.hoverp  .pageproject-date{
 	transform: translateX(0.6rem);
       transition: ease all 0.9s;
             -webkit-transition: ease all 0.9s;
@@ -2931,10 +2947,10 @@ select:focus {
     width: 100%;
 
 }
-.tags-projects div{
+.tags-projects .tag{
 	 
     /*font-size: 13px;*/
-    font-size: /*1rem*/ 14px;
+    font-size: /*1rem*/ /*14px*/ 12px;
     /*letter-spacing: 2px;*/
     /* font-family: 'kepler-std-medium'; */
     text-transform: uppercase;
@@ -2946,14 +2962,28 @@ select:focus {
     /*color: #fff;*/
     opacity: 1;
     /*border: 1px solid #fff;*/
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+    /*border: 1px solid rgba(255, 255, 255, 0.5);*/
     transition: ease 0.4s transform;
     -webkit-transition: ease 0.4s transform;
     -o-transition: ease 0.4s transform;
     transition-delay: 0.08s;
     font-weight: 400;
+
 }
-.hoverp  .tags-projects div{
+
+.tags-projects .tag-grey{
+    border: 1px solid rgba(119, 119, 119, 0.4);
+    color: #777;
+}
+
+.tags-projects .tag-white{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+
+
+.hoverp  .tags-projects .tag{
 	transform: translateX(0.6rem);
       transition: ease all 0.9s;
             -webkit-transition: ease all 0.9s;
@@ -2961,16 +2991,22 @@ select:focus {
     z-index: 2;
     opacity: 1;
    border: 1px solid #777777;
+   color: #777777;
 }
 
 .landing-v{
 	 background-image: url(../img/project-1-f.jpg);
     background-size: cover;
 }
+.bg-icon{
+	 background-image: url(../img/project-icon4.jpg);
+    background-size: cover;
+}
 
 .landing-b2{
 	 background-image: /*url(../img/landing-b.png)*/url(../img/landing-b2.jpg);
     background-size: cover;
+    background-position: top;
 }
 .landing-embajadoresdemarca{
 	 background-image: /*url(../img/landing-b.png)*/url(../img/landing-embajadoresdemarca-2.jpg);
@@ -2994,6 +3030,11 @@ select:focus {
 	background-image: url(../img/project-design1.jpg);
     background-size: cover;
     
+}
+.web-d-dance-school{
+	background-image: url(../img/web-design-danza4.jpg);
+	background-size: cover;
+	background-position:top center;
 }
 .project-design2{
 	background-image: url(../img/project-design2.jpg);
@@ -3104,30 +3145,36 @@ select:focus {
     transition-delay: 0.08s;
     vertical-align: middle;
     opacity:1;
-    color: /*#7b7979*/ #777777;
+   
     font-size: 2.2rem;
     font-weight: 500;
 
 
 }
+
 .description-p h2{
-	color: /*#777777*/ #fff;
+	/*color: /*#777777*/  /* #fff;*/
     display: inline-block;
     vertical-align: middle;
-    font-size: /*3.5rem*/ 2.5rem;
+    font-size: /*3.5rem 2.5rem*/ 2.8rem;
     margin: 2% 0;
-    font-weight: 500;
+    font-weight: /*500*/500;
     float: left;
      transition: ease 0.4s transform;
     -webkit-transition: ease 0.4s transform;
     -o-transition: ease 0.4s transform;
     transition-delay: 0.08s;
 }
+.description-p h2.text-c-gray{
+   color: /*#7b7979*/ #777777;
+}
 
 .description-p i{
-	 font-size: /*4rem*/ 3rem;
-	color: /*#777777*/ #fff;
+	margin: 1% 0;
+	 font-size: 4rem /*3rem*/;
+	color: /*#777777*/ transparent;
 	    vertical-align: middle;
+	 font-weight: 100;
 }
 
 .hoverp .description-p{
@@ -3141,10 +3188,10 @@ select:focus {
     color: #7b7979 !important;
  }
  .hoverp .description-p h2{
- 	color: #777777;
-      transition: ease all 0.9s;
-            -webkit-transition: ease all 0.9s;
-    -o-transition: ease all 0.9s;
+ 	color: #777777 !important;
+      transition: ease all 0.4s;
+            -webkit-transition: ease all 0.4s;
+    -o-transition: ease all 0.4s;
 
  }
   .hoverp .description-p i{
@@ -3152,6 +3199,7 @@ select:focus {
  	 transition: ease all 0.9s;
             -webkit-transition: ease all 0.9s;
     -o-transition: ease all 0.9s;
+    vertical-align: middle;
  }
 .overlay-p{
 	        height: 100%;
@@ -3286,7 +3334,7 @@ select:focus {
     /*background-color: rgba(0, 0, 0, 0.24);*/
     
 }
-.design-w-section h3{
+.design-w-section h3,.design-ux-section h3,.frontend-section h3{
     /*font-size: 3.6rem;
     font-weight: 800;
     letter-spacing: 0.02em;
@@ -3316,16 +3364,17 @@ select:focus {
 
 
 .bg-project{
-	background-image: url(../img/background-2.jpg);
+	/*background-image: url(../img/background-2.jpg);
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     /* background-position: right -11px top 31%; */
-    background-position: right 0px bottom 0%;
-    background-repeat: no-repeat;
+
+    /*background-position: right 0px bottom 0%;
+    background-repeat: no-repeat;*/
     z-index: 1;
     height: 100vh;
-    padding: 0 0 5rem 0;
+    padding: 0 0 4rem 0;
    
 }
 .overlay-bg-project{
@@ -3346,7 +3395,7 @@ select:focus {
     text-align: center;
     padding: 3.2rem 0px; 
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .overlay-gray{
