@@ -78,6 +78,16 @@
 
 	.description-p {top: 1.30rem;left: 1.20rem;}
 	.hoverp .description-p{transform: translateX(0.2rem);}
+
+
+
+
+
+
+	/*codigo de css de projects en inicio*/
+	.card-col{height:80vh;margin-bottom: 40px;padding-bottom: 0px;}
+
+
 }
 
 @media screen and (max-width: 860px){
@@ -114,7 +124,7 @@
   .title-services{top:/* 0px*/ 48px;color: #8c62c3;}
   .fact-mail{font-size: 1rem;}
   .section-contact-information{padding: 16% 0 0 !important;}
-  .contact h2{font-size: 4rem;}
+  .contact h2{font-size: 3rem /*4rem*/;}
   .contact-fact{margin-top: 0px;}
   .svg-image{display: none;}
 
@@ -128,6 +138,12 @@
 
 
        .logo-fix{left: 3rem;}
+
+
+
+       /*codigo de css de projects en inicio*/
+	.card-col{height:60vh;margin-bottom: 40px;padding-bottom: 0px;}
+
 
   
 }
@@ -266,7 +282,8 @@
 	.scroll-d{display: block;}
       
     .more a{float: left;margin-top: -30px;}
-    .projects h2{width: 100%;}
+    .projects h2{font-size: 4.2rem;/*width: 100%;*/}
+
     .projects h2 span{left: 0px;position: relative;top: 0px;line-height: 0.9;}
     .description-projects{padding-bottom: 5%;}
     .description-projects p{font-size: 16px;}
@@ -281,7 +298,7 @@
    .collapse-section{width: 100%;}
    .photo{margin-top: 0px;}
 
-   .projects h2{font-size: 4.2rem;}
+   
 
    .section {padding: 0% 2% 4% !important;}
 
@@ -290,8 +307,8 @@
    .logo-fix{left: 0.4rem;}
    .bg-project .nav-toggle{right: 0.8rem;}
 
-
-
+   /*codigo de css de projects en inicio*/
+    .container-p{max-width: 100%;}
 
 }
 /*estoy aqui*/

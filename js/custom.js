@@ -44,6 +44,8 @@ $(window).scroll(_ = () => {
         $('.line-menu').addClass('reverse-line');
         $('.link-social-fix').addClass('icon-social-reverse');
 
+        $('.abv-lang').addClass('abv-lang-hidden');
+
         //$('.nav-toggle-bar').addClass('nav-toggle-reverse');
 
     } else {
@@ -56,6 +58,8 @@ $(window).scroll(_ = () => {
         $('.menu-button').removeClass('reverse-menu');
         $('.line-menu').removeClass('reverse-line');
         $('.link-social-fix').removeClass('icon-social-reverse');
+
+        $('.abv-lang').removeClass('abv-lang-hidden');
 
 
         //$('.nav-toggle-bar').removeClass('nav-toggle-reverse');
